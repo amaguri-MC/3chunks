@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "chunklink",
+	"version": "${version}",
+	"name": "Chunk Link",
+	"description": "全員が3チャンク分の正方形（一辺 16√3 ≈ 27.71 ブロック）に収まっていないと全員死ぬ。",
+	"authors": ["amaguri-MC"],
+	"license": "CC0-1.0",
+	"icon": "assets/chunklink/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.amaguri.chunklink.ChunkLink"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
